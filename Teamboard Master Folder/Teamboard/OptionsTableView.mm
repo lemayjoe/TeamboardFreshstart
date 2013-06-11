@@ -2,7 +2,7 @@
 //  OptionsTableView.m
 //  Teamboard
 //
-// Copyright 2013, Joe Lemay, All Rights Reserved.  Confidential        \n7/11/12.
+// Copyright 2013, Joe Lemay, All Rights Reserved.  Confidential    
 
 //
 

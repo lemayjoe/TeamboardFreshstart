@@ -9,6 +9,7 @@
 #import "AppDelegate.h"
 
 #import "Whiteboard.h"
+#import "EdgeDetectionSample.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -16,7 +17,8 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     allSamples.push_back([[SampleFacade alloc] initWithSample:  new Whiteboard()]);
-    
+    allSamples.push_back([[SampleFacade alloc] initWithSample:  new EdgeDetectionSample()]);
+
     // Override point for customization after application launch.
     if ([[UIDevice currentDevice] userInterfaceIdiom] == UIUserInterfaceIdiomPad)
     {

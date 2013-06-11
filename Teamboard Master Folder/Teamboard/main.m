@@ -1,9 +1,6 @@
 //
 //  main.m
-//  OpenCV Tutorial
-//
-//  Created by BloodAxe on 6/23/12.
-//  Copyright (c) 2012 __MyCompanyName__. All rights reserved.
+//  Teamboard, Copyright 2013 Joe Lemay, All Rights Reserved.  Confidential
 //
 
 #import <UIKit/UIKit.h>
